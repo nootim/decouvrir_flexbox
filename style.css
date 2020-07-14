@@ -1,0 +1,50 @@
+.papa {
+    display: flex;
+    width: 90%;
+    background: #ccc;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .enfant-un,
+  .enfant-deux,
+  .enfant-trois {
+    width: 25%;
+    height: 240px;
+  }
+  
+  .enfant-un {
+    background: purple;
+  }
+  
+  .enfant-deux {
+    background: cyan;
+    align-self: flex-end;
+  }
+  
+  .enfant-trois {
+    background: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .petit-enfant-trois {
+      width: 80%;
+      height: 60px;
+      background: pink;
+  }
+  .rebel {
+      align-self: flex-end;
+  }
+  .avec-texte {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .avec-texte > p {
+      padding: 5px;
+  }
